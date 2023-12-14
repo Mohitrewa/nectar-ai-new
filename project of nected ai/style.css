@@ -100,16 +100,16 @@ article header h1 {
 button.join-now-button {
     background-color: #1E90FF;
     color: white;
-    padding: 20px 40px; /* Increased padding for a longer and wider button */
+    padding: 20px 40px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.5s ease, padding 0.5s ease; /* Added transition for padding */
+    transition: background-color 0.5s ease, padding 0.5s ease;
 }
 
 button.join-now-button:hover {
     background-color: #0066CC;
-    padding: 22px 45px; /* Adjusted padding on hover */
+    padding: 22px 45px;
 }
 
 p.small-button {
@@ -137,6 +137,27 @@ footer {
     max-width: 150px;
 }
 
+.small-nected-text {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-right {
+    max-width: 70%;
+}
+
 .small-nected-logo {
     max-width: 50px;
 }
+
